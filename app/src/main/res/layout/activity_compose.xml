@@ -30,4 +30,15 @@
         android:layout_marginTop="136dp"
         android:layout_marginEnd="14dp"
         android:text="@string/tweet" />
+
+    <TextView
+        android:id="@+id/tvCharCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etCompose"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toStartOf="@+id/btnTweet"
+        android:text="280"
+        android:textSize="20sp" />
 </RelativeLayout>
